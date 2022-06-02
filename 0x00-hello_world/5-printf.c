@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - beg
+ * main - Entry point
  *
- * Return: stop
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
