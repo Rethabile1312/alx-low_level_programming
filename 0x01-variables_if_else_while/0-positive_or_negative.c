@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -23,12 +23,12 @@ int main(void)
 		printf("%1 is negative\n", n);
 		printf("%d is negative\n", n);
 	}
-
+	
 	else
 	{
 		print f("%i is positive\n", n);
 		printf("%d is positive\n", n);
 	}
-
+	
 	return (0);
 }
