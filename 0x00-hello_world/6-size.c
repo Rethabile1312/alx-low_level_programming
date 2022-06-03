@@ -6,12 +6,13 @@
 */
 int main(void)
 {
-	char acharacter;
-	int ainteger;
-	long along; 
-	long long alonglong;
-	float afload
-	printf("Size of char: %lu bbyte(s)\n", (unsigned long)sizeof(d);
+	char a;
+        long b;
+	long c; 
+	long long d;
+        char f;
+
+        printf("Size of a char: %lu bbyte(s)\n", (unsigned long)sizeof(d);
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
