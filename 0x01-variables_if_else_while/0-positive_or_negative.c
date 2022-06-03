@@ -26,7 +26,7 @@ int main(void)
 	
 	else
 	{
-		print f("%i is positive\n", n);
+		printf("%i is positive\n", n);
 		printf("%d is positive\n", n);
 	}
 	
