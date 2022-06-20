@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _memcpy -   copy number bytes form adress "from" to adress "to"
- * @dest: content is to be copied
- * @src: Source of data to be copied
+ * _memset -   fills memory with a constant byte
+ * @s: pointer block of memory to fill
+ * @b: value to set
  * @n: bytes of the memory
  * Return: dest
  */
@@ -10,14 +10,12 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 
 {
-	unsigned int i;
-	
+	unsigned int i;	
 	/*Delacring FOR*/
 	for (i = 0; i < n; i++)
 	{
 		*(s + i) = b; /*add 1 position s*/
 
 	}/*END FOR*/
-
 	return (s);
 }
